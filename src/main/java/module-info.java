@@ -8,11 +8,11 @@
  * </p>
  */
 module concord_core {
-	exports io.github.concord_communications.core.util;
-	exports io.github.concord_communications.core.msg;
+	exports io.github.concord_communication.core.util;
+	exports io.github.concord_communication.core.msg;
 
-	exports io.github.concord_communications.core.msg.types;
-	exports io.github.concord_communications.core.msg.types.client_setup;
-	exports io.github.concord_communications.core.msg.types.chat;
-	exports io.github.concord_communications.core.msg.types.channel;
+	exports io.github.concord_communication.core.msg.types;
+	exports io.github.concord_communication.core.msg.types.client_setup;
+	exports io.github.concord_communication.core.msg.types.chat;
+	exports io.github.concord_communication.core.msg.types.channel;
 }

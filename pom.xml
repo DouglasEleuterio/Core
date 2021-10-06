@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.concord_communications</groupId>
+    <groupId>io.github.concord_communication</groupId>
     <artifactId>concord-core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <properties>
@@ -14,6 +14,14 @@
         <maven.compiler.release>17</maven.compiler.release>
         <java.version>17</java.version>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Concord-Communications Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Concord-Communication/Core</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
