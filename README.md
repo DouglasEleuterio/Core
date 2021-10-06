@@ -1,2 +1,3 @@
-# Core
-The core library that defines the Concord protocol and messaging components used by servers and clients.
+# Concord Core
+
+This module contains the core resources that both the client and server depend on.
